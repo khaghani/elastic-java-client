@@ -667,8 +667,8 @@ public class HttpConnection implements Connection {
                 throw new MalformedURLException("Only http & https protocols supported");
             final boolean methodHasBody = req.method().hasBody();
             final boolean hasRequestBody = req.requestBody() != null;
-            if (!methodHasBody)
-                Validate.isFalse(hasRequestBody, "Cannot set a request body for HTTP method " + req.method());
+//            if (!methodHasBody)
+//                Validate.isFalse(hasRequestBody, "Cannot set a request body for HTTP method " + req.method());
 
             // set up the request for execution
             String mimeBoundary = null;
