@@ -7,7 +7,7 @@ I use jsoup library to send http request but with some change to can add request
 * [commons-codec](https://commons.apache.org/proper/commons-codec/download_codec.cgi) - only for using x-pack and authorizate
 
 ## usage
-1- add jar file in your classpath
+1- add jar file in your classpath  
 2- create an object from Elastic class like:
 ```
 //without authorization
@@ -22,7 +22,7 @@ document.put("text", "some text");
 String result = elastic.customQuery("index/type", document.toString(), Method.POST);
 ```
 ## to do
-1- create a function to add or update document
-2- create a function for create index and type
-3- create a function for create simple query dsl
-4- create a function for searching
+1- create a function to add or update document  
+2- create a function for create index and type  
+3- create a function for create simple query dsl  
+4- create a function for searching  
